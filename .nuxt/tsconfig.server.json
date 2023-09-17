@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "C:/Users/HI/Desktop/my-portfolio/client/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "C:/Users/HI/Desktop/my-portfolio/client/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "C:/Users/HI/Desktop/my-portfolio/client"
+      ],
+      "~/*": [
+        "C:/Users/HI/Desktop/my-portfolio/client/*"
+      ],
+      "@": [
+        "C:/Users/HI/Desktop/my-portfolio/client"
+      ],
+      "@/*": [
+        "C:/Users/HI/Desktop/my-portfolio/client/*"
+      ],
+      "~~": [
+        "C:/Users/HI/Desktop/my-portfolio/client"
+      ],
+      "~~/*": [
+        "C:/Users/HI/Desktop/my-portfolio/client/*"
+      ],
+      "@@": [
+        "C:/Users/HI/Desktop/my-portfolio/client"
+      ],
+      "@@/*": [
+        "C:/Users/HI/Desktop/my-portfolio/client/*"
+      ],
+      "assets": [
+        "C:/Users/HI/Desktop/my-portfolio/client/assets"
+      ],
+      "assets/*": [
+        "C:/Users/HI/Desktop/my-portfolio/client/assets/*"
+      ],
+      "public": [
+        "C:/Users/HI/Desktop/my-portfolio/client/public"
+      ],
+      "public/*": [
+        "C:/Users/HI/Desktop/my-portfolio/client/public/*"
+      ]
+    }
+  },
+  "include": [
+    "C:/Users/HI/Desktop/my-portfolio/client/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
