@@ -33,11 +33,11 @@ const viewProjectLive = () => {
 
 <style scoped>
     .heading {
-        @apply text-[14px] font-bold custom-screen-xl:text-[32px] custom-screen-md:text-[24px] 
+        @apply text-[14px] font-bold screen-xl:text-[32px] screen-md:text-[24px] 
     }
 
     .link {
-        @apply opacity-[0.6] flex gap-[7px] sm:gap-[17px] text-[10px] custom-screen-lg:text-[16px] items-center font-normal
+        @apply opacity-[0.6] flex gap-[7px] sm:gap-[17px] text-[10px] screen-lg:text-[16px] items-center font-normal
     }
 
     .about-project {
@@ -58,11 +58,11 @@ const viewProjectLive = () => {
     }
 
     .info {
-        @apply text-[#7D7D7D] pt-[2.74%] text-[10px] custom-screen-lg:text-[16px] font-medium leading-[20.48px]
+        @apply text-[#7D7D7D] pt-[2.74%] text-[10px] screen-lg:text-[16px] font-medium leading-[20.48px]
     }
 
     .btn {
-        @apply bg-[rgba(240,219,79,0.10)] text-[10px] custom-screen-lg:p-2 max-w-[500px] custom-screen-lg:text-base font-normal text-[#F0DB4F] p-1 rounded-full w-fit
+        @apply bg-[rgba(240,219,79,0.10)] text-[10px] screen-lg:p-2 max-w-[500px] screen-lg:text-base font-normal text-[#F0DB4F] p-1 rounded-full w-fit
     }
 
 
