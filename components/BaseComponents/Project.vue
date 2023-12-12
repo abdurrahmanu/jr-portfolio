@@ -1,7 +1,7 @@
 <template>
     <div class="project">
         <div class="img-container">
-            <img class="img" src="../public/projectBackground.png" alt="">
+            <img class="img" src="projectBackground.png" alt="">
         </div>
         <div class="about-project">
             <div class="heading">{{ project.title }}</div>
