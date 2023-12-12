@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
@@ -62,7 +61,3 @@ yarn preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-=======
-# my-portfolio
-A revamp of my porfolio
->>>>>>> 13ba9cdefa142e5b6804976037490f1674d5f6f8
