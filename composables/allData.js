@@ -9,6 +9,7 @@ import JavaScriptSvg from '../components/SvgComponents/JavaScriptSvg.vue';
 import PythonSvg from '../components/SvgComponents/PythonSvg.vue';
 import ReactSvg from '../components/SvgComponents/ReactSvg.vue';
 import NodeJsSvg from '../components/SvgComponents/NodeJsSvg.vue';
+import { ref } from 'vue';
 
 export function allData() {
     const svgs = [GithubSvg, LinkedinSvg, DownloadSvg]
@@ -94,3 +95,5 @@ export function allData() {
         skillSet,
     }
 }
+
+
