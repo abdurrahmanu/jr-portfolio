@@ -18,6 +18,6 @@ const props = defineProps({
 <style scoped>
     .typography-heading {
         @apply font-bold text-[30px] text-[rgba(255,255,255,0.80)] 
-        /* custom-screen-2xl:text-custom-2xl custom-screen-xl:text-custom-xl custom-screen-lg:text-custom-lg custom-screen-md:text-custom-md custom-screen-sm:text-custom-sm custom-screen-3xl:text-custom-3xl */
+        screen-2xl:text-custom-2xl screen-xl:text-custom-xl screen-lg:text-custom-lg screen-md:text-custom-md screen-sm:text-custom-sm screen-3xl:text-custom-3xl
     }
 </style>

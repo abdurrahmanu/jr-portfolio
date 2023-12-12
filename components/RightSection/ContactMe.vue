@@ -68,11 +68,11 @@ const handleSubmit = () => {
 <style scoped>
     .form-button {
         @apply w-full border-t border-white border-opacity-[0.1] shadow-md active:bg-slate-200 active:text-black text-center bg-neutral-800 rounded-md py-2 text-[10px] 
-        custom-screen-md:py-4 custom-screen-md:text-[14px] custom-screen-2xl:py-6 custom-screen-2xl:text-base
+        screen-md:py-4 screen-md:text-[14px] screen-2xl:py-6 screen-2xl:text-base
     }
     
     .text-input {
-        @apply h-[170px] py-2 text-[10px] custom-screen-md:py-4 custom-screen-md:text-[14px] custom-screen-2xl:py-6 custom-screen-2xl:text-base text-[rgba(255,255,255,0.4)] placeholder:text-[rgba(255,255,255,0.3)] bg-transparent rounded-md border border-[rgba(255,255,255,0.3)] px-4 w-full outline-none
+        @apply h-[170px] py-2 text-[10px] screen-md:py-4 screen-md:text-[14px] screen-2xl:py-6 screen-2xl:text-base text-[rgba(255,255,255,0.4)] placeholder:text-[rgba(255,255,255,0.3)] bg-transparent rounded-md border border-[rgba(255,255,255,0.3)] px-4 w-full outline-none
     }
 
 </style>

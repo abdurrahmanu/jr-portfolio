@@ -26,7 +26,7 @@ const clickedNavigation = ref(fixedSectionData[props.navigationName].name)
 
 <style scoped>
 .navigation {
-    @apply font-normal text-[10px] custom-screen-xl:text-[13px] custom-screen-3xl:text-[16px] hover:text-white hover:text-opacity-80 w-fit flex gap-2 items-center tracking-[1.04px]
+    @apply font-normal text-[10px] screen-xl:text-[13px] screen-3xl:text-[16px] hover:text-white hover:text-opacity-80 w-fit flex gap-2 items-center tracking-[1.04px]
 }
 
 .line {
