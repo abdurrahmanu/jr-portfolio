@@ -1,7 +1,7 @@
 <template>
     <div class="project">
         <div class="img-container">
-            <img class="img" src="../../public/projectBackground.png" alt="">
+            <img class="img" src="/projectBackground.png" alt="">
         </div>
         <div class="about-project">
             <div class="heading">{{ project.title }}</div>
@@ -33,7 +33,7 @@ const viewProjectLive = () => {
 
 <style scoped>
     .heading {
-        @apply text-[14px] font-bold screen-xl:text-[32px] screen-md:text-[24px] 
+        @apply text-[14px] font-bold screen-xl:text-[32px] screen-md:text-[24px]
     }
 
     .link {
@@ -54,11 +54,11 @@ const viewProjectLive = () => {
 
     .project {
         @apply h-fit max-h-fit pb-[8.1%] gap-[5.8%] border-[rgba(255,255,255,0.10)]
- border-[1px] flex flex-col rounded-[17px]
+        border-[1px] flex flex-col rounded-[17px] dark:bg-baseBlack bg-neutral-800 
     }
 
     .info {
-        @apply text-[#7D7D7D] pt-[2.74%] text-[10px] screen-lg:text-[16px] font-medium leading-[20.48px]
+        @apply text-zinc-400 dark:text-[#7D7D7D] pt-[2.74%] text-[10px] screen-lg:text-[16px] font-medium leading-[20.48px]
     }
 
     .btn {

@@ -1,7 +1,7 @@
 <template>
     <div class="main-container">
-        <NavBar v-if="fixedNavInViewPort" />
         <CustomNavBar />
+        <Scroller />
         <div class="main-content">
             <FixedSection
             @fixedNavInViewPort="fixedNavInViewPort = $event"
@@ -48,11 +48,11 @@ onUnmounted(() => unobserveIntersection());
 
 <style scoped>
 .main-content {
-    @apply flex gap-[5.1%] relative max-w-[1228px] px-6 min-w-fit m-auto transition-all duration-100 h-fit
+    @apply flex gap-[5.1%] pt-[60px] sm:pt-0 relative max-w-[1228px] px-6 min-w-fit m-auto transition-all duration-100 h-fit
     }
 
     .main-container {
-        @apply sm:px-[106px] px-5 bg-baseBlack pb-[63px] text-white transition-all delay-150
+        @apply screen-md:px-[106px] screen-xs:px-[60px] screen-xxs:px-[40px] px-5 bg-neutral-200 dark:bg-baseBlack pb-[63px] text-white transition-all delay-150
     } 
 
 </style>

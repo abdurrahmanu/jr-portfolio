@@ -26,14 +26,17 @@ module.exports = {
         'screen-xs': {'min': '600px'},
         'screen-sm': { 'min': '800px' },
         'screen-md': { 'min': '900px' },
+        'screen-breakpoint': {'min': '956px'},
         'screen-lg': { 'min': '1055px' },
         'screen-xl': { 'min': '1202px' },
         'screen-2xl': { 'min': '1310px' },
         'screen-3xl': { 'min': '1415px' },
+        'short-screen': { 'raw': '(max-height: 650px)' },
+        
+        'tall': {'raw': '(min-height: 272px)'},
       },
     },
   },
-  plugins: [
-
-  ],
+  plugins: [],
+  darkMode: 'class'
 }

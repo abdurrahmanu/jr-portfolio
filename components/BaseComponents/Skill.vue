@@ -28,7 +28,7 @@ const filterProjects = () => {
 
 <style scoped>
 .skill {
-    @apply pt-3 pl-3 pr-5 text-[10px] screen-lg:text-[16px] border border-[rgba(255,255,255,0.10)] pb-3 rounded-[10px] shadow-lg flex flex-col screen-lg:pt-4 screen-lg:pl-4 screen-lg:pr-[24.89px] screen-lg:pb-[14px]
+    @apply pt-3 pl-3 pr-5 text-[10px] screen-lg:text-[16px] border border-[rgba(255,255,255,0.10)] pb-3 rounded-[10px] shadow-lg flex flex-col screen-lg:pt-4 screen-lg:pl-4 screen-lg:pr-[24.89px] screen-lg:pb-[14px] dark:bg-baseBlack bg-neutral-800
 }
 
 .link {

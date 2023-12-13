@@ -1,7 +1,7 @@
 <template>
-    <div @click="goToLink" class="flex font-medium gap-[10px]">
-        <component :is="svg[0]" />
-        <div class="inline-block">{{ name }}</div>
+    <div @click="goToLink" class="flex font-medium gap-[10px] dark:text-slate-300 text-black">
+        <component class="p-1 rounded-full bg-black" :is="svg[0]" />
+        <div class="flex items-center text-[12px] ">{{ name }}</div>
     </div>
 </template>
 

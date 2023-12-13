@@ -1,11 +1,11 @@
 <template>
     <div 
     @click="$emit('emitClickedNavigation', clickedNavigation)"
-    :class="[activeNavigation ? 'text-white' : 'text-[#7d7d7d]']"
+    :class="[activeNavigation ? 'dark:text-white text-black' : 'text-[#7d7d7d]']"
     class="navigation">
         <span class="inline-block">{{ navigationIndex }}</span>
         <div class="line"
-        :class="[activeNavigation ? 'w-[51px] bg-white' : 'bg-gray-500 w-[30px]']">
+        :class="[activeNavigation ? 'w-[51px] dark:bg-white bg-black' : 'bg-gray-500 w-[30px]']">
         </div>
         <div class="inline-block">{{ navigationName }}</div>
     </div>
@@ -26,7 +26,7 @@ const clickedNavigation = ref(fixedSectionData[props.navigationName].name)
 
 <style scoped>
 .navigation {
-    @apply font-normal text-[10px] screen-xl:text-[13px] screen-3xl:text-[16px] hover:text-white hover:text-opacity-80 w-fit flex gap-2 items-center tracking-[1.04px]
+    @apply font-normal text-[10px] screen-xl:text-[13px] screen-3xl:text-[16px] hover:text-black dark:hover:text-white w-fit flex gap-2 items-center tracking-[1.04px]
 }
 
 .line {

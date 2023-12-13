@@ -27,10 +27,10 @@ const phoneNumber = ref(' +234453453445')
 
 <style scoped>
     .footer {
-        @apply border-t-[2px] border-white flex m-auto justify-between items-center border-opacity-[0.1] pt-[33px] font-normal relative text-[rgba(255,255,255,0.70)] screen-3xl:text-base gap-2 screen-2xl:text-[14px] screen-xl:text-[12px] screen-lg:text-[10px] text-[9px] w-full
+        @apply border-t-[2px] border-black dark:border-white flex m-auto justify-between items-center dark:border-opacity-[0.1] pt-[33px] font-normal relative dark:text-[rgba(255,255,255,0.70)] screen-3xl:text-base gap-2 screen-2xl:text-[14px] screen-xl:text-[12px] screen-lg:text-[10px] text-[9px] w-full
     }
 
     .footer-container {
-        @apply min-w-fit max-w-[1228px] mx-auto
+        @apply min-w-fit max-w-[1228px] mx-auto text-black
     }
 </style>

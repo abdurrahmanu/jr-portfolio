@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="">
         <SectionInfo
         :sectionName="contactInfo.name"
         :fixedHeading="contactInfo.header"
@@ -15,7 +15,7 @@
                 :label="input.label"
                 :placeholder="input.placeholder" />
                 <div class="grid gap-1">
-                    <label for="message" class="text-[rgba(255,255,255,0.3)] text-[12px] custom-screen-md:text-[16px] custom-screen-2xl:text-base">Enter message</label>
+                    <label for="message" class="text-black dark:text-[rgba(255,255,255,0.3)] text-[12px] screen-md:text-[16px] custom-screen-2xl:text-base">Enter message</label>
                     <textarea v-model="message" class="text-input" name="" placeholder="Type your message" id="message" cols="30" rows="10"></textarea>
                 </div>
                 <div class="text-center pt-6">
@@ -72,7 +72,7 @@ const handleSubmit = () => {
     }
     
     .text-input {
-        @apply h-[170px] py-2 text-[10px] screen-md:py-4 screen-md:text-[14px] screen-2xl:py-6 screen-2xl:text-base text-[rgba(255,255,255,0.4)] placeholder:text-[rgba(255,255,255,0.3)] bg-transparent rounded-md border border-[rgba(255,255,255,0.3)] px-4 w-full outline-none
+        @apply h-[170px] py-2 text-[10px] screen-md:py-4 screen-md:text-[14px] screen-2xl:py-6 screen-2xl:text-base text-[rgba(255,255,255,0.4)] rounded-md border dark:border-[rgba(255,255,255,0.3)] px-4 w-full outline-none bg-transparent border-neutral-600 placeholder:text-neutral-400 text-neutral-700
     }
 
 </style>

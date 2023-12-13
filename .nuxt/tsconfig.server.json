@@ -52,6 +52,9 @@
       ],
       "public/*": [
         "C:/Users/HI/Desktop/my-portfolio/client/public/*"
+      ],
+      "pinia": [
+        "C:/Users/HI/Desktop/my-portfolio/client/node_modules/pinia/dist/pinia"
       ]
     }
   },

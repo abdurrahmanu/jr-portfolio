@@ -1,7 +1,7 @@
 <template>
     <div id="about" class="intersect">
-        <div class="text-[14px] leading-[16.41px] font-medium text-gray-500 text-opacity-80">About me</div>
-        <img loading="lazy" class="my-image" src="../../public/image.png" alt="">
+        <div class="text-[14px] leading-[16.41px] sm:hidden font-medium text-gray-500 text-opacity-80 pt-6 py-3">ABOUT ME</div>
+        <img loading="lazy" class="my-image" src="/image.png" alt="">
         <SectionInfo
         sectionName=""
         :fixedHeading="aboutInfo.header"

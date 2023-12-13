@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed-section">
+    <div ref="fixedElement" class="fixed-section">
         <FixedSectionHeading
         v-if="detectNavigationChange" 
         :fixedHeading="fixedHeading" />
@@ -37,6 +37,7 @@
 const { fixedSectionData, svgs, socialContact } = allData()
 
 const fixedNav = ref(null)
+const fixedElement = ref(null)
 const props = defineProps({ scrolledInSection: String })
 const emit = defineEmits(['clickNavigation', 'fixedNavInViewPort'])
 const navigation =  ['About Me', 'Skillset', 'Projects', 'Contact Me']
@@ -120,7 +121,7 @@ function isInViewport(element) {
 
 <style scoped>
     .fixed-section {
-        @apply sticky top-0 left-0 sm:w-[46.18%] hidden sm:flex flex-col gap-[3.3%] text-white h-fit pb-[40px]
+        @apply sticky short-screen:top-[110px] top-[75px] sm:top-[110px] md:top-[160px] left-0 sm:w-[46.18%] hidden sm:flex flex-col gap-[3.3%] text-white h-fit pb-[40px]
     }
 
     .nav {
@@ -129,13 +130,13 @@ function isInViewport(element) {
 
     .social-contact {
         @apply max-w-[391px]  font-normal text-[11px] grid items-center 
-        screen-sm:gap-[44px] screen-md:text-[14px] gap-2 screen-sm:flex 
+        screen-sm:gap-[44px] screen-md:text-[14px] gap-2 screen-breakpoint:flex 
     }
     /* screen-sm:max-w-fit */
 
     .typography-info, .typography-nav {
         @apply screen-3xl:text-base gap-2 screen-2xl:text-[14px] screen-xl:text-[12px] screen-lg:text-[10px] text-[9px] 
-    }screen-sm
+    }
 
     .typography-social {
         @apply screen-2xl:text-[14px] screen-xl:text-[12px] screen-lg:text-[10px] screen-sm:text-[9px] 
